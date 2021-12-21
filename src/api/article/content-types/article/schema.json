@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "ARTICLE"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "THUMBNAIL": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "DATE": {
+      "type": "date"
+    },
+    "TITLE": {
+      "type": "string"
+    },
+    "BRIEF": {
+      "type": "text"
+    },
+    "LINK": {
+      "type": "string"
+    }
+  }
+}
