@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "live_datasets",
+  "info": {
+    "singularName": "live-dataset",
+    "pluralName": "live-datasets",
+    "displayName": "LIVE DATASET"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TITLE": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}
