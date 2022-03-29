@@ -14,7 +14,7 @@
   "attributes": {
     "TITLE": {
       "type": "string",
-      "unique": true
+      "unique": false
     },
     "ARTICLE": {
       "type": "richtext"
@@ -26,7 +26,8 @@
       "type": "string"
     },
     "METACANONICAL": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     }
   }
 }
