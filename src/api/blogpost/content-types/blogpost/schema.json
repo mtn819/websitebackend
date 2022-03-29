@@ -18,6 +18,15 @@
     },
     "ARTICLE": {
       "type": "richtext"
+    },
+    "METATITLE": {
+      "type": "string"
+    },
+    "METADESCRIPTION": {
+      "type": "string"
+    },
+    "METACANONICAL": {
+      "type": "string"
     }
   }
 }
