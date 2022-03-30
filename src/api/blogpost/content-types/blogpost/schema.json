@@ -39,7 +39,7 @@
         "videos"
       ]
     },
-    "ENDPOINT": {
+    "URL": {
       "type": "string",
       "unique": true
     }
