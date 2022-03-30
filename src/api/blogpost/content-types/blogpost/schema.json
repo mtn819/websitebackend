@@ -27,6 +27,20 @@
     },
     "METACANONICAL": {
       "type": "string",
+      "unique": false
+    },
+    "THUMBNAIL": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "ENDPOINT": {
+      "type": "string",
       "unique": true
     }
   }
