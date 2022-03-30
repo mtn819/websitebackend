@@ -27,7 +27,7 @@
     },
     "METACANONICAL": {
       "type": "string",
-      "unique": false
+      "unique": true
     },
     "THUMBNAIL": {
       "type": "media",
@@ -38,10 +38,6 @@
         "files",
         "videos"
       ]
-    },
-    "URL": {
-      "type": "string",
-      "unique": true
     }
   }
 }
