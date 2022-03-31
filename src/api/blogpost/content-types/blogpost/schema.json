@@ -40,10 +40,13 @@
       ]
     },
     "METAPUBLISHEDTIME": {
-      "type": "string"
+      "type": "datetime"
     },
     "METAMODIFIEDTIME": {
-      "type": "string"
+      "type": "datetime"
+    },
+    "JSONLD": {
+      "type": "json"
     }
   }
 }
