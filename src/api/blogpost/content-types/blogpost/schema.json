@@ -44,9 +44,6 @@
     },
     "METAMODIFIEDTIME": {
       "type": "datetime"
-    },
-    "JSONLD": {
-      "type": "json"
     }
   }
 }
