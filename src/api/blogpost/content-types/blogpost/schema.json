@@ -43,7 +43,8 @@
       "type": "datetime"
     },
     "METAMODIFIEDTIME": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     }
   }
 }
