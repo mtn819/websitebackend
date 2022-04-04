@@ -27,12 +27,13 @@
     },
     "METACANONICAL": {
       "type": "string",
-      "unique": true
+      "unique": true,
+      "required": true
     },
     "THUMBNAIL": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
